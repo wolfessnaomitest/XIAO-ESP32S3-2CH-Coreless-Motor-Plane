@@ -28,7 +28,7 @@ void SetPWMValue(float percent, int pwmChannel)
 
 void setup() {
   // Note the format for setting a serial port is as follows: Serial2.begin(baud-rate, protocol, RX pin, TX pin);
-  Serial.begin(460800);
+  //Serial.begin(460800);
   //Serial1.begin(9600, SERIAL_8N1, RXD2, TXD2);
   Serial2.begin(420000, SERIAL_8N1, RXD2, TXD2);
 
